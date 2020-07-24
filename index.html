@@ -1,29 +1,43 @@
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173431493-1"></script>
+    <!-- Google Tag Manager -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-173431493-1');
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-W53CXKM');
     </script>
+    <!-- End Google Tag Manager -->
     <link rel="stylesheet" type="text/css" href="index.css" />
     <title>
       Testing Google Analytics
     </title>
   </head>
   <body>
-    <h1>The nav element</h1>
-
-    <p>The nav element defines a set of navigation links:</p>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-W53CXKM"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <h1>Knowing Google Analytics and Google Tag Manager</h1>
+    <p>Learning</p>
     <nav>
       <a href="html/index.html">HTML</a> | <a href="css/index.html">CSS</a> |
       <a href="js/index.html">JavaScript</a> |
       <a href="python/index.html">Python</a>
     </nav>
+
+    <a href="https://github.com/InfinityUnity">Github</a>
   </body>
 </html>
